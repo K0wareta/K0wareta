@@ -89,7 +89,6 @@ CI/CD, управление конфигурацией. Последние дв�
 
 **Облако и сеть**
 ![Yandex Cloud](https://img.shields.io/badge/Yandex%20Cloud-5282FF?style=flat-square&logo=yandexcloud&logoColor=white)
-![Google Cloud DNS](https://img.shields.io/badge/Google%20Cloud%20DNS-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![nginx](https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 ![Consul](https://img.shields.io/badge/Consul-F24C53?style=flat-square&logo=consul&logoColor=white)
 ![keepalived](https://img.shields.io/badge/keepalived-555555?style=flat-square)
@@ -102,7 +101,6 @@ CI/CD, управление конфигурацией. Последние дв�
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![Gerrit](https://img.shields.io/badge/Gerrit-EEEEEE?style=flat-square&logo=gerrit&logoColor=black)
 ![Nexus](https://img.shields.io/badge/Nexus-1B1C30?style=flat-square&logo=sonatype&logoColor=white)
-![pre-commit](https://img.shields.io/badge/pre--commit-FAB040?style=flat-square&logo=precommit&logoColor=black)
 
 **Наблюдаемость**
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
@@ -117,7 +115,6 @@ CI/CD, управление конфигурацией. Последние дв�
 **Базы данных и очереди**
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Patroni](https://img.shields.io/badge/Patroni-336791?style=flat-square)
-![CloudNativePG](https://img.shields.io/badge/CloudNativePG-336791?style=flat-square)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
@@ -140,7 +137,6 @@ CI/CD, управление конфигурацией. Последние дв�
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
