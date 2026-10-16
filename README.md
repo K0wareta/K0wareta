@@ -9,7 +9,7 @@
 [![SadServers Level](https://img.shields.io/badge/SadServers-Beginner-00838F?style=for-the-badge&labelColor=FFC400&logo=docker&logoColor=1A237E&logoSize=auto)](https://sadservers.com)
 [![Codewars](https://www.codewars.com/users/Kowareta/badges/large)](https://www.codewars.com/users/Kowareta)
 
-**DevOps / SRE-инженер** · Москва · 2+ года в продакшене · English C1
+**SRE / DevOps-инженер** · Москва · 2+ года в продакшене · English C1
 
 Строю и сопровождаю инфраструктуру: мониторинг и алертинг, базы данных и бэкапы,
 CI/CD, управление конфигурацией. Последние два года отвечал за 200+ хостов
@@ -36,14 +36,38 @@ CI/CD, управление конфигурацией. Последние дв�
 
 ---
 
-## 🛠 Опыт в продакшене
+## 🛠 Опыт
 
-- **Мониторинг и алертинг:** перепроектировал алертинг на Prometheus/Alertmanager: приоритеты P1/P3/P5, маршрутизация в Telegram, Opsgenie и Grafana IRM, дедупликация
-- **Базы данных:** переезд в другой ДЦ вместе с обновлением PostgreSQL 11 → 17 на Patroni. Ещё в работе были MySQL/MariaDB, MongoDB и Cassandra с бэкапами через Medusa
-- **CI/CD:** пайплайны для 40+ микросервисов на GitLab CI и Jenkins
-- **Конфигурация:** SaltStack (states, pillar, Jinja), больше тысячи коммитов в инфраструктурный репозиторий
-- **Бэкапы и хранилища:** Bareos, GlusterFS
-- **Сеть и балансировка:** nginx, Consul / consul-template, keepalived
+### АТОЛ · SRE / DevOps-инженер
+`июнь 2024 — сентябрь 2026` · production-инфраструктура фискальных сервисов: **200+ хостов** в нескольких ЦОД, **7 продуктовых команд**, окружения dev и prod. Вся инфраструктура описана кодом на SaltStack и Terraform.
+
+#### 📟 Мониторинг и алертинг
+- **Перепроектировал алертинг** на Prometheus/Alertmanager: приоритеты P1/P3/P5, разделение по окружениям, проектам и командам, маршрутизация в Telegram, Opsgenie и Grafana IRM. Убрал дубли, ложные и недоходящие алерты: каждая из 7 команд получает только алерты своих сервисов
+- **Единая схема мониторинга nginx для 100+ сервисов:** унифицировал зоны во всех vhost, ввёл алерты на 4xx/5xx, upstream errors, 429, время ответа и ошибки reload с разделением на prod/dev и приоритеты
+- **Автообнаружение целей в нескольких ЦОД:** конфиг Prometheus генерируется по ролям хостов через salt mine, поэтому новые серверы попадают в мониторинг без ручных правок
+- Подключил и обновил 15+ экспортеров (MongoDB, Sentry, Apache, statsd, cAdvisor, Nomad и другие), добавил recording rules для учёта CPU, памяти и дисков по проектам. Разбирал инциденты и писал постмортемы
+
+#### 🚚 Переезд в новый ЦОД
+- **Перевёз production:** кластеры MariaDB и **Patroni с обновлением PostgreSQL 11 → 17**, Docker-хосты, Nomad и keepalived на Ubuntu 24.04. Пароли при переезде вынес из кода в Vault
+- **Перенёс кластеры Nomad (dev и prod) и 20+ Docker-хостов** на новое железо, обновил GlusterFS 9 → 11, вывел из эксплуатации серверы на CentOS 7
+- **Мигрировал все stateful-сервисы dev-окружения:** Cassandra, MySQL/MariaDB, PostgreSQL, Kafka, RabbitMQ, Redis, MongoDB. Пользователи, права и базы, которые раньше заводились руками, теперь описаны в коде, и окружение воспроизводимо
+
+#### 🔁 CI/CD и работа с разработкой
+- **Стандартизировал CI/CD для 40+ микросервисов** на Python и JS: единая схема версионирования образов, раздельные registry для test и prod, общие шаблоны деплоя, переезд сервисов на новый кластер Nomad
+- **Убрал токены из образов:** сборка бэкенда через Docker BuildKit secrets для доступа к приватному Nexus
+- **Перенёс CI-инфраструктуру разработки** (Jenkins, Gerrit, GitLab Runner) на новые серверы и описал Jenkins целиком в SaltStack: плагины, ноды, пользователи. Сборочные воркеры развернул в Nomad через Terraform, до 8 параллельно
+- Готовил тестовые базы под запросы команд, помогал разработчикам с доступами и падающими сборками
+
+#### 🛡 Надёжность и качество
+- **Резервное копирование на Bareos:** PostgreSQL (pg_basebackup с реплики), MySQL, MongoDB, Jenkins, Consul, серверы продуктовых команд
+- **Линтинг инфраструктурного кода** в GitLab CI: yamllint и salt-lint только по изменённым файлам
+- **Структурированные JSON-логи** Kafka и RabbitMQ с доставкой в ELK через GELF и Logstash, ревизия устаревших пайплайнов
+- **DNS-зоны компании в коде:** Terraform + Google Cloud DNS
+
+### ГБУ «Доринвест» · Системный администратор
+`февраль 2023 — апрель 2025` · поддержка 200+ рабочих мест, Windows Server и Linux, сети, СКС и видеонаблюдение
+
+---
 
 ## 🧰 Стек
 
@@ -64,6 +88,7 @@ CI/CD, управление конфигурацией. Последние дв�
 
 **Облако и сеть**
 ![Yandex Cloud](https://img.shields.io/badge/Yandex%20Cloud-5282FF?style=flat-square&logo=yandexcloud&logoColor=white)
+![Google Cloud DNS](https://img.shields.io/badge/Google%20Cloud%20DNS-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![nginx](https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 ![Consul](https://img.shields.io/badge/Consul-F24C53?style=flat-square&logo=consul&logoColor=white)
 ![keepalived](https://img.shields.io/badge/keepalived-555555?style=flat-square)
@@ -74,6 +99,8 @@ CI/CD, управление конфигурацией. Последние дв�
 **CI/CD**
 ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Gerrit](https://img.shields.io/badge/Gerrit-EEEEEE?style=flat-square&logo=gerrit&logoColor=black)
+![Nexus](https://img.shields.io/badge/Nexus-1B1C30?style=flat-square&logo=sonatype&logoColor=white)
 ![pre-commit](https://img.shields.io/badge/pre--commit-FAB040?style=flat-square&logo=precommit&logoColor=black)
 
 **Наблюдаемость**
@@ -82,6 +109,7 @@ CI/CD, управление конфигурацией. Последние дв�
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Loki](https://img.shields.io/badge/Loki-F2CC0C?style=flat-square&logo=grafana&logoColor=black)
 ![Alloy](https://img.shields.io/badge/Alloy-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Zabbix](https://img.shields.io/badge/Zabbix-D40000?style=flat-square&logo=zabbix&logoColor=white)
 ![ELK](https://img.shields.io/badge/ELK-005571?style=flat-square&logo=elasticsearch&logoColor=white)
 ![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
 
@@ -94,6 +122,8 @@ CI/CD, управление конфигурацией. Последние дв�
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=flat-square&logo=apachecassandra&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Valkey](https://img.shields.io/badge/Valkey-6983FF?style=flat-square)
 
 **Бэкапы и хранилища**
@@ -112,6 +142,7 @@ CI/CD, управление конфигурацией. Последние дв�
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
+---
 
 ## 🎓 Образование
 
@@ -121,4 +152,5 @@ CI/CD, управление конфигурацией. Последние дв�
 
 ## 📬 Контакты
 [![Telegram](https://img.shields.io/badge/Telegram-@hatedbylifeitself-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/hatedbylifeitself)
-[![Email](https://img.shields.io/badge/Email-vacancy.a.syainov@mail.ru-005FF9?style=flat-square&logo=maildotru&logoColor=white)](mailto:vacancy.a.syainov@mail.ru)
+[![Email](https://img.shields.io/badge/Email-a.syainov@mail.ru-005FF9?style=flat-square&logo=maildotru&logoColor=white)](mailto:a.syainov@mail.ru)
+****
