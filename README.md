@@ -2,7 +2,6 @@
 
 [![Open to work](https://img.shields.io/badge/Open%20to%20work-DevOps%20%2F%20SRE-2EA44F?style=for-the-badge)](#-контакты)
 [![vyazka.su](https://img.shields.io/website?url=https%3A%2F%2Fvyazka.su&style=for-the-badge&label=vyazka.su&up_message=online)](https://vyazka.su)
-[![pipeline](https://gitlab.com/vyazka/vyazka-project/badges/main/pipeline.svg)](https://gitlab.com/vyazka/vyazka-project/-/pipelines)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/artem-siainov-626390440)
 [![Habr Career](https://img.shields.io/badge/Habr%20Career-6C8DBE?style=for-the-badge&logo=habr&logoColor=white)](https://career.habr.com/kowareta)
 [![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/K0wareta)
@@ -76,4 +75,4 @@ CI/CD, управление конфигурацией. Последние дв�
 
 ## 📬 Контакты
 [![Telegram](https://img.shields.io/badge/Telegram-@hatedbylifeitself-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/hatedbylifeitself)
-[![Email](https://img.shields.io/badge/Email-a.syainov@mail.ru-005FF9?style=flat-square&logo=maildotru&logoColor=white)](mailto:a.syainov@mail.ru)
+[![Email](https://img.shields.io/badge/Email-vacancy.a.syainov@mail.ru-005FF9?style=flat-square&logo=maildotru&logoColor=white)](mailto:vacancy.a.syainov@mail.ru)
