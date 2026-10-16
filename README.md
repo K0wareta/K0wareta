@@ -6,9 +6,6 @@
 [![Habr Career](https://img.shields.io/badge/Habr%20Career-6C8DBE?style=for-the-badge&logo=habr&logoColor=white)](https://career.habr.com/kowareta)
 [![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/K0wareta)
 
-[![SadServers Level](https://img.shields.io/badge/SadServers-Beginner-00838F?style=for-the-badge&labelColor=FFC400&logo=docker&logoColor=1A237E&logoSize=auto)](https://sadservers.com)
-[![Codewars](https://www.codewars.com/users/Kowareta/badges/large)](https://www.codewars.com/users/Kowareta)
-
 **SRE / DevOps-инженер** · Москва · 2+ года в продакшене · English C1
 
 Строю и сопровождаю инфраструктуру: мониторинг и алертинг, базы данных и бэкапы,
@@ -154,3 +151,6 @@ CI/CD, управление конфигурацией. Последние дв�
 [![Telegram](https://img.shields.io/badge/Telegram-@hatedbylifeitself-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/hatedbylifeitself)
 [![Email](https://img.shields.io/badge/Email-a.syainov@mail.ru-005FF9?style=flat-square&logo=maildotru&logoColor=white)](mailto:a.syainov@mail.ru)
 ****
+
+[![SadServers Level](https://img.shields.io/badge/SadServers-Beginner-00838F?style=for-the-badge&labelColor=FFC400&logo=docker&logoColor=1A237E&logoSize=auto)](https://sadservers.com)
+[![Codewars](https://www.codewars.com/users/Kowareta/badges/large)](https://www.codewars.com/users/Kowareta)
