@@ -146,7 +146,7 @@ CI/CD, управление конфигурацией. Последние дв�
 
 ## 📬 Контакты
 [![Telegram](https://img.shields.io/badge/Telegram-@hatedbylifeitself-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/hatedbylifeitself)
-[![Email](https://img.shields.io/badge/Email-a.syainov@mail.ru-005FF9?style=flat-square&logo=maildotru&logoColor=white)](mailto:a.syainov@mail.ru)
+[![Email](https://img.shields.io/badge/Email-vacancy.a.syainov@mail.ru-005FF9?style=flat-square&logo=maildotru&logoColor=white)](mailto:vacancy.a.syainov@mail.ru)
 ****
 
 ---
