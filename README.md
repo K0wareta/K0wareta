@@ -3,9 +3,9 @@
 [![Open to work](https://img.shields.io/badge/Open%20to%20work-DevOps%20%2F%20SRE-2EA44F?style=for-the-badge)](#-контакты)
 [![vyazka.su](https://img.shields.io/website?url=https%3A%2F%2Fvyazka.su&style=for-the-badge&label=vyazka.su&up_message=online)](https://vyazka.su)
 [![pipeline](https://gitlab.com/vyazka/vyazka-project/badges/main/pipeline.svg)](https://gitlab.com/vyazka/vyazka-project/-/pipelines)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ВАШ_НИК)
-[![Habr Career](https://img.shields.io/badge/Habr%20Career-6C8DBE?style=for-the-badge&logo=habr&logoColor=white)](https://career.habr.com/ВАШ_НИК)
-[![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/ВАШ_НИК)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/artem-siainov-626390440)
+[![Habr Career](https://img.shields.io/badge/Habr%20Career-6C8DBE?style=for-the-badge&logo=habr&logoColor=white)](https://career.habr.com/kowareta)
+[![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/K0wareta)
 
 [![SadServers Level](https://img.shields.io/badge/SadServers-Beginner-00838F?style=for-the-badge&labelColor=FFC400&logo=docker&logoColor=1A237E&logoSize=auto)](https://sadservers.com)
 [![Codewars](https://www.codewars.com/users/Kowareta/badges/large)](https://www.codewars.com/users/Kowareta)
