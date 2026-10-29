@@ -1,6 +1,5 @@
 # Привет, я Артём 👋
 
-[![Open to work](https://img.shields.io/badge/Open%20to%20work-DevOps%20%2F%20SRE-2EA44F?style=for-the-badge)](#-контакты)
 [![vyazka.su](https://img.shields.io/website?url=https%3A%2F%2Fvyazka.su&style=for-the-badge&label=vyazka.su&up_message=online)](https://vyazka.su)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/artem-siainov-626390440)
 [![Habr Career](https://img.shields.io/badge/Habr%20Career-6C8DBE?style=for-the-badge&logo=habr&logoColor=white)](https://career.habr.com/kowareta)
